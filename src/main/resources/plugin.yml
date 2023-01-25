@@ -2,3 +2,8 @@ name: Noonchat
 version: '${project.version}'
 main: com.github.shading6339.noonchat.Noonchat
 api-version: 1.19
+commands:
+  noonchat:
+    description: HelloWorld
+    usage: /<command>
+    default: op
